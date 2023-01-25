@@ -253,6 +253,66 @@ header section .cards .card {
     border-radius: 3.125rem .625rem .625rem .625rem;
 }
 
-header section .cards .card:nth-child(1) {
+header section .cards .card:nth-last-child(1) {
     margin-right: 0rem;
+}
+
+header section .cards .card .dis {
+    width: 70px;
+    position: relative;
+    top: -5p;
+    left: -5px;
+}
+
+header section .cards .card .steam {
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: -35px;
+    left: -5px;
+}
+
+header section .cards .card h4 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+header section .cards .card h5 {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-top: -8px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+header section .cards .card p {
+    color: rgb(203, 203, 203);
+    font-size: 9px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+
+header section .cards .card .rate-cart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    color: #fff;
+}
+
+header section .cards .card .rate-cart h6 {
+    font-size: 10px;
+}
+
+header section .cards .card .rate-cart .bi {
+    font-size: 17px;
 }
