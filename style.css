@@ -145,11 +145,24 @@ header nav .right-menu .user-cart .user::before {
 header .left-menu {
     width: 20px;
     height: 90%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .left-menu a {
+    margin: 30px 0;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #000;
+    font-weight: ;
 }
 
 header section {
     width: 98%;
     height: 90%;
-    /* border: 1px solid greenyellow; */
+    border: 1px solid greenyellow;
 }
