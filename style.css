@@ -221,8 +221,7 @@ header section .content .price-order a {
     color: #fff;
     text-decoration: none;
     font-size: .875rem;
-    margin-left: 2.1875rem;
-    border-radius: 10px 10px 50px 50px / 10px 10px 50px 50px;
+    margin-left: 2.1875rem; border-radius: 10px 10px 50px 50px / 10px 10px 50px 50px;
 }
 
 header section .cards {
