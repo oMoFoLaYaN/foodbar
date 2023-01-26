@@ -347,7 +347,7 @@ header section .social .icons {
     align-items: center;
 }
 
-header section .social.icons a {
+header section .social .icons a {
     font-size: 12px;
     margin-left: 10px;
     color: #282828;
@@ -355,3 +355,5 @@ header section .social.icons a {
 }
 
 header section .social .icons a:hover {
+    color: #000;
+}
