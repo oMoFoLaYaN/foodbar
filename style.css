@@ -227,7 +227,7 @@ header section .content .price-order a {
 header section .cards {
     width: 90%;
     height: 140px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     position: relative;
     top: 20%;
     padding-left: 30px;
@@ -316,3 +316,42 @@ header section .cards .card .rate-cart h6 {
 header section .cards .card .rate-cart .bi {
     font-size: 1.0625rem;
 }
+
+header section .social {
+    position: relative;
+    width: 100%;
+    border: 1px solid n#000;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s linear;
+}
+
+header section .social .btns {
+    margin-left: 30px;
+}
+
+header section .social .btns .bi {
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+header section .social .btns .bi:hover {
+    color: rgb(0, 0, 0, .5);
+}
+
+header section .social .icons {
+    display: flex;
+    align-items: center;
+}
+
+header section .social.icons a {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #282828;
+    transition: .3s linear;
+}
+
+header section .social .icons a:hover {
