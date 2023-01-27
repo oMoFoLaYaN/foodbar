@@ -20,11 +20,15 @@ body {
 
 header {
     position: relative;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 55%;
+>>>>>>> bdf2851fb9c54265d835c147015a5748ab073c4f
     height: 75%;
     background: #fff;
-    box-shadow: 0px 0px 50px -1px rgb(0, 0, 0, .5);
-    padding: 0px 30px;
+    box-shadow: 0rem 0rem 3.125rem -0.0625rem rgb(0, 0, 0, .5);
+    padding: 0rem 1.875rem;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -34,8 +38,8 @@ header .logo {
     position: absolute;
     top: 0;
     left: 10%;
-    width: 250px;
-    height: 350px;
+    width: 15.625rem;
+    height: 21.875rem;
     background: #282828;
     transition: 1s linear;
 }
@@ -43,28 +47,28 @@ header .logo {
 header .logo h1{
     color: #fff;
     text-align: center;
-    margin-top: 5px;
-    font-size: 25px;
+    margin-top: .3125rem;
+    font-size: 1.5625rem;
     font-weight: 600;
 }
 
 header .logo img {
-    width: 300px;
-    margin: 20px 0px 0px -30px;
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, .9));
+    width: 18.75rem;
+    margin: 1.25rem 0rem 0rem -1.875rem;
+    filter: drop-shadow(0rem 0rem 1.25rem rgba(0, 0, 0, .9));
 }
 
 header nav {
     width: 100%;
     height: 10%;
-    /* border: 1px solid #000; */
+    /* border: .0625rem solid #000; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header nav .menu {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #000;
 }
 
@@ -80,13 +84,13 @@ header nav .right-menu ul {
 }
 
 header nav .right-menu ul li {
-    padding: 3px 10px;
+    padding: .1875rem .625rem;
 }
 
 header nav .right-menu ul li a {
     position: relative;
     text-decoration: none;
-    font-size: 11px;
+    font-size: .6875rem;
     font-weight: 600;
     color: #000;
     transition: .3s linear;
@@ -95,11 +99,11 @@ header nav .right-menu ul li a {
 header nav .right-menu ul li a::before {
     content: '';
     position: absolute;
-    width: 4px;
-    height: 4px;
+    width: .25rem;
+    height: .25rem;
     background: #dc1313;
     border-radius: 50%;
-    bottom: -5px;
+    bottom: -0.3125rem;
     left: 45%;
     opacity: 0;
     transition: .3s linear;
@@ -114,17 +118,17 @@ header nav .right-menu ul li a:hover::before {
 }
 
 header nav .right-menu .user-cart {
-    margin-left: 50px;
+    margin-left: 3.125rem;
     display: flex;
     align-items: center;
 }
 
 header nav .right-menu .user-cart .user {
     position: relative;
-    width: 17px;
-    height: 17px;
+    width: 1.0625rem;
+    height: 1.0625rem;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: .625rem;
 }
 
 header nav .right-menu .user-cart .user img {
@@ -134,19 +138,19 @@ header nav .right-menu .user-cart .user img {
 header nav .right-menu .user-cart .user::before {
     content: '';
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: .3125rem;
+    height: .3125rem;
     background: #dc1313;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     top: 0%;
     right: 0%;
     z-index: 9999;
 }
 
 header .left-menu {
-    width: 20px;
+    width: 1.25rem;
     height: 90%;
-    /* border: 1px solid red; */
+    /* border: .0625rem solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,10 +158,10 @@ header .left-menu {
 }
 
 header .left-menu a {
-    margin: 30px 0;
-    padding: 0 5px;
+    margin: 1.875rem 0;
+    padding: 0 .3125rem;
     text-decoration: none;
-    font-size: 10px;
+    font-size: .625rem;
     color: #000;
     font-weight: 600;
     transition: .3s linear;
@@ -171,12 +175,12 @@ header .left-menu a:hover {
 header section {
     width: 97%;
     height: 90%;
-    /* border: 1px solid greenyellow; */
+    /* border: .0625rem solid greenyellow; */
 }
 
 header section .content {
     position: relative;
-    left: 370px;
+    left: 23.125rem;
     margin-top: 10%;
     display: flex;
     align-items: flex-start;
@@ -186,51 +190,51 @@ header section .content {
 }
 
 header section .content h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     transition: 1s linear ;
 }
 
 header section .content p {
-    font-size: 10px;
+    font-size: .625rem;
     font-weight: 600;
-    width: 290px;
+    width: 18.125rem;
     word-break: break-all;
 }
 
 header section .content .price-order {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 
 header section .content .price-order .price h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #dc1313;
-    line-height: 18px;
+    line-height: 1.125rem;
 }
 
 header section .content .price-order .price p {
-    font-size: 5.5008px;
-    width: 50px;
-    /* border: 1px solid #000; */
+    font-size: .3438rem;
+    width: 3.125rem;
+    /* border: .0625rem solid #000; */
 }
 
 header section .content .price-order a {
-    padding: 4px 20px;
+    padding: .25rem 1.25rem;
     background: #121213;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    margin-left: 35px; border-radius: .625rem .625rem 3.125rem 3.125rem / .625rem .625rem 3.125rem 3.125rem;
+    font-size: .875rem;
+    margin-left: 2.1875rem; border-radius: 10px 10px 50px 50px / 10px 10px 50px 50px;
 }
 
 header section .cards {
     width: 90%;
-    height: 140px;
-    /* border: 1px solid #000; */
+    height: 8.75rem;
+    /* border: .0625rem solid #000; */
     position: relative;
     top: 20%;
-    padding-left: 30px;
+    padding-left: 1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -245,48 +249,48 @@ header section .cards::-webkit-scrollbar {
 
 header section .cards .card {
     position: relative;
-    min-width: 125px;
-    min-height: 125px;
-    border: 1px solid #000;
-    margin-right: 13px;
+    min-width: 7.8125rem;
+    min-height: 7.8125rem;
+    border: .0625rem solid #000;
+    margin-right: .8125rem;
     background: #282828;
-    border-radius: 50px 10px 10px 10px;
+    border-radius: 3.125rem .625rem .625rem .625rem;
 }
 
 header section .cards .card:nth-last-child(1) {
-    margin-right: 0px;
+    margin-right: 0rem;
 }
 
 header section .cards .card .dis {
-    width: 4.375rem;
+    width: 70px;
     position: relative;
     top: -5p;
-    left: -5px;
+    left: -0.3125rem;
 }
 
 header section .cards .card .steam {
-    width: 3.75rem;
-    height: 5rem;
+    width: 60px;
+    height: 80px;
     position: absolute;
-    top: -2.1875rem;
-    left: -0.3125rem;
+    top: -35px;
+    left: -5px;
 }
 
 header section .cards .card h4 {
     position: absolute;
-    top: 1.25rem;
-    right: 1.25rem;
+    top: 20px;
+    right: 20px;
     color: #fff;
-    font-size: .8125rem;
+    font-size: 13px;
     font-weight: 600;
 }
 
 header section .cards .card h5 {
     color: #fff;
-    font-size: .6875rem;
+    font-size: 11px;
     font-weight: 500;
-    padding: 0 .625rem;
-    margin-top: -0.5rem;
+    padding: 0 10px;
+    margin-top: -8px;
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -295,9 +299,9 @@ header section .cards .card h5 {
 
 header section .cards .card p {
     color: rgb(203, 203, 203);
-    font-size: .5625rem;
+    font-size: 9px;
     font-weight: 500;
-    padding: 0rem .625rem;
+    padding: 0px 10px;
 }
 
 header section .cards .card .rate-cart {
@@ -305,22 +309,22 @@ header section .cards .card .rate-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .125rem .625rem;
+    padding: 2px 10px;
     color: #fff;
 }
 
 header section .cards .card .rate-cart h6 {
-    font-size: .625rem;
+    font-size: 10px;
 }
 
 header section .cards .card .rate-cart .bi {
-    font-size: 1.0625rem;
+    font-size: 17px;
 }
 
 header section .social {
     position: relative;
     width: 100%;
-    border: 1px solid n#000;
+    border: .0625rem solid n#000;
     top: 20%;
     display: flex;
     align-items: center;
@@ -329,11 +333,11 @@ header section .social {
 }
 
 header section .social .btns {
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 header section .social .btns .bi {
-    font-size: 13px;
+    font-size: .8125rem;
     cursor: pointer;
     transition: .3s linear;
 }
@@ -348,12 +352,23 @@ header section .social .icons {
 }
 
 header section .social .icons a {
+<<<<<<< HEAD
     font-size: 12px;
     margin-left: 10px;
+=======
+    font-size: .75rem;
+    margin-left: .625rem;
+>>>>>>> bdf2851fb9c54265d835c147015a5748ab073c4f
     color: #282828;
     transition: .3s linear;
 }
 
 header section .social .icons a:hover {
     color: #000;
+<<<<<<< HEAD
 }
+=======
+}
+/* Media Queries */
+
+>>>>>>> bdf2851fb9c54265d835c147015a5748ab073c4f
